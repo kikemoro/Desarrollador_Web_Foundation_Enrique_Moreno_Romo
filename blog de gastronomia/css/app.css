@@ -1,0 +1,119 @@
+body{
+	background: url(../img/fondo.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.logo{
+	width: 33%;
+}
+
+.slogan{
+	width: 65%;
+	float: right;
+}
+
+.head{
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 0px 0px 10px 10px;
+}
+
+.body{
+	margin-top: 25px;
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 10px 10px 10px 10px;
+}
+
+h1{
+	color: white;
+}
+
+h3{
+	color: white;
+}
+
+h4{
+	color: rgb(0,28,63);
+}
+
+h5{
+	color: white;
+}
+
+p{
+	margin-top: 15px;
+	color: rgb(0,28,63);
+}
+
+.callout{
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.der{
+	background-color: rgb(244,121,32);
+}
+
+.izq{
+	background-color: rgb(0,28,63);
+}
+
+.imagen{
+	border: solid 5px white;
+	border-radius: 10px;
+}
+
+.area-texto{
+	border-radius: 10px;
+	height: 100px;
+}
+
+.boton{
+	background-color: rgb(0,28,63);
+	margin-right: 15px;
+	float: right;
+	border-radius: 5px;
+}
+
+.fi-pencil{
+	margin-right: 5px;
+}
+
+.man{
+	width: 15%;
+}
+
+.woman{
+	width: 15%;
+}
+
+.user{
+	background-color: rgb(244,121,32);
+}
+
+.button{
+	padding: 15px;
+	background-color: rgb(0,28,63);
+	border-radius: 1px;
+	border: solid 1px rgb(244,121,32);
+}
+
+.find{
+	background-color: rgb(244,121,32);
+}
+
+.img-fav{
+	border-radius: 10px;
+}
+
+.hist{
+	margin-top: 25px;
+	color: white;
+}
+
+@media(max-width: 860px){
+	.gourmet{
+		display: none;
+	}
+}
